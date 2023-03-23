@@ -18,7 +18,7 @@ public class LevelManager : MonoBehaviour
     /// </summary>
     void Awake()
     {
-    //    uiManager = FindObjectOfType<UiManager>();
+       uiManager = FindObjectOfType<UiManager>();
     //    spawnNumbers = FindObjectsOfType<SpawnPoint>().Length;
     //    if (spawnNumbers <= 0)
     //    {
@@ -120,7 +120,7 @@ public class LevelManager : MonoBehaviour
         if (spawnNumbers <= 0)
         {
             // Victory
-            uiManager.GoToVictoryMenu();
+           // uiManager.GoToVictoryMenu();
         }
     }
 }
